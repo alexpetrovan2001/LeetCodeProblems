@@ -1,0 +1,11 @@
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        numbers = dict()
+        for i in range(len(nums)):
+            if nums[i] in numbers:
+                numbers[nums[i]] -= 1
+            else: numbers[nums[i]] = 2
+            if numbers[nums[i]] == 0:
+                del numbers[nums[i]]
+        keys = list(numbers.keys())
+        return keys[0]
