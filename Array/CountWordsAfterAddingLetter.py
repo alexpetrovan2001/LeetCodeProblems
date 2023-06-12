@@ -12,10 +12,13 @@ class Solution:
             if len(startWords[i]) + 1 < len(targetWords[j]):
                 i += 1
             elif len(startWords[i]) + 1 == len(targetWords[j]):
-                if self.compareWords(startWords[i], targetWords[j]):
-                    result += 1
+                lastJ = j
+                while j < len(targetWords) and len(startWords[i]) + 1 == len(targetWords[j]):
+                    if self.compareWords(startWords[i], targetWords[j]):
+                        result+=1
+                    j+=1
                 i += 1
-                j += 1
+                j = lastJ
             else :
                 j += 1
         return result
