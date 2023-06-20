@@ -48,6 +48,38 @@ class Solution:
                 return False
         return True
 
+
+    def isValidSudoku2(self, board: List[List[str]]) -> bool:
+        # Balance between time and memory: 33% time 42% mem. If we use dicts instead of arrays, time lowers but memory increases
+        rows = []
+        cols = []
+        squares = []
+
+        for i in range(9):
+            rows.append([])
+            cols.append([])
+            squares.append([])
+
+        for i in range(9):
+            for j in range(9):
+                value = board[i][j]
+                if value != ".":
+                    if value not in rows[i]:
+                        rows[i].append(value)
+                    else:
+                        return False
+                    if value not in cols[j]:
+                        cols[j].append(value)
+                    else:
+                        return False
+                    rowMultiplier = i//3
+                    colMultiplier = j//3
+                    if value not in squares[rowMultiplier*3 + colMultiplier]:
+                        squares[rowMultiplier*3 + colMultiplier].append(value)
+                    else:
+                        return False
+        return True
+
 sol = Solution()
 sol.isValidSudoku([["5","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
