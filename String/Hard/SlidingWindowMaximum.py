@@ -1,4 +1,5 @@
 from typing import List
+from collections import deque
 
 class Solution:
     # Beats 95 % time and 11.5 % memory
@@ -20,5 +21,5 @@ class Solution:
         return res
 
 sol = Solution()
-print(sol.maxSlidingWindow([1, -1], 1))
+print(sol.maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3))
 
