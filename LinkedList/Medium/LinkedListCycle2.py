@@ -29,3 +29,21 @@ class Solution:
                 slow = slow.next
                 fast = fast.next
             return slow
+
+    def detectCycle2(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        # Improved first algorithm (96% time and 91% memory)
+        slow = head
+        fast = head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:  # Cycle detected
+                slow = head
+                while slow != fast:
+                    slow = slow.next
+                    fast = fast.next
+                return slow  # Node where the cycle begins
+
+        return None  # No cycle found
