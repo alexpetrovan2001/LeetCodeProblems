@@ -1,4 +1,5 @@
 # LeetCodeProblems
+
 Solved problems from leetcode
 
 You can check every branch for different subjects. 
@@ -8,3 +9,14 @@ Some problems have more than one solution, each with it's pros and cons (some ha
 Most of the solutions have been found by me, without using any AI-tools or without being inspired from other solutions. 
 Of course, some problems posed some challanges and if I was thinking for more than 10 mins to it without any progress
 I would search for hints here and there, but there was no copy&paste to any problem. :) 
+
+Feel free to explore the branches for various subjects and dive into the solutions.
+
+## Table of Contents
+
+- [Branch: Array](#branch-array)
+- [Branch: Graphs](#branch-graphs)
+- [Branch: LinkedList](#branch-linked-list)
+- [Branch: Stack](#branch-stack)
+- [Branch: String](#branch-string)
+- [Branch: Trees](#branch-trees)
