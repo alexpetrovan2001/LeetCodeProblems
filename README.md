@@ -14,9 +14,9 @@ Feel free to explore the branches for various subjects and dive into the solutio
 
 ## Table of Contents
 
-- [Array](#Array)
-- [Graphs](#branch-Graphs)
-- [LinkedList](#branch-LinkedList)
-- [Stack](#branch-Stack)
-- [String](#branch-String)
-- [Trees](#branch-Trees)
+- [Array](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Array)
+- [Graphs](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Graphs)
+- [LinkedList](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/LinkedList)
+- [Stack](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Stack)
+- [String](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/String)
+- [Trees](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Trees)
