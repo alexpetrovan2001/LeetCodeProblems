@@ -14,9 +14,9 @@ Feel free to explore the branches for various subjects and dive into the solutio
 
 ## Table of Contents
 
-- [Branch: Array](#Array)
-- [Branch: Graphs](#branch-Graphs)
-- [Branch: LinkedList](#branch-LinkedList)
-- [Branch: Stack](#branch-Stack)
-- [Branch: String](#branch-String)
-- [Branch: Trees](#branch-Trees)
+- [Array](#Array)
+- [Graphs](#branch-Graphs)
+- [LinkedList](#branch-LinkedList)
+- [Stack](#branch-Stack)
+- [String](#branch-String)
+- [Trees](#branch-Trees)
