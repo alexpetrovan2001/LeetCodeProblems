@@ -14,7 +14,7 @@ Feel free to explore the branches for various subjects and dive into the solutio
 
 ## Table of Contents
 
-- [Branch: Array](/Array)
+- [Branch: Array](#Array)
 - [Branch: Graphs](#branch-Graphs)
 - [Branch: LinkedList](#branch-LinkedList)
 - [Branch: Stack](#branch-Stack)
