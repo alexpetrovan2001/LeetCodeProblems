@@ -20,3 +20,4 @@ Feel free to explore the branches for various subjects and dive into the solutio
 - [Stack](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Stack)
 - [String](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/String)
 - [Trees](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Trees)
+- [Heap](https://github.com/alexpetrovan2001/LeetCodeProblems/tree/Heap)
