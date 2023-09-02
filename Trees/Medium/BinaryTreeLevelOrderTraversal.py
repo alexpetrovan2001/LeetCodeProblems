@@ -78,5 +78,6 @@ class Solution:
                     sq.append(node.right)
             ans.append(res)
             q = sq
+            sq, res = [], []
 
         return ans
