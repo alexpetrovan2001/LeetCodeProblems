@@ -10,7 +10,7 @@ class Solution:
                 return nums[idx]
 
     def findDuplicate2(self, nums: List[int]) -> int:
-        # Tortoise and Hare algorithm - beats 68% time and 93% memory
+        # Tortoise and Hare algorithm - beats 68% time and 93% memory3
         slow = fast = nums[0]
         while True:
             slow = nums[slow]
